@@ -20,12 +20,19 @@
 
 /* === HEADER */
 
+header {
+    display: flex;
+    justify-content: center;
+}
+
 header nav {
-    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 50px;
+    position: fixed;
+    top: 50px;
+    width: 100%;
 }
 
 header ul {
@@ -37,4 +44,14 @@ header ul li a {
     text-decoration: none;
     color: #fff;
     padding: 15px;
+}
+
+/* === FEATURED*/
+
+.featured--area {
+    height: 100vh;
+    background-image: url("./assets/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
