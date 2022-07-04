@@ -18,6 +18,10 @@
     color: #000;
 }
 
+h2 {
+    font-size: 50px;
+}
+
 /* === HEADER */
 
 header {
@@ -55,3 +59,18 @@ header ul li a {
     background-size: cover;
     background-position: center;
 }
+.featured--one {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    
+    color: #fff;
+    background-color: #ff5b50;
+}
+
+.info--group {
+    display: flex;
+    align-items: flex-end;
+}
+
