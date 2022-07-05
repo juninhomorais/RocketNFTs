@@ -34,7 +34,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    position: fixed;
+    position: absolute;
     top: 50px;
     width: 100%;
 }
@@ -53,24 +53,53 @@ header ul li a {
 /* === FEATURED*/
 
 .featured--area {
-    height: 100vh;
+    height: calc(100vh + 100px);
     background-image: url("./assets/images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
+.featured--area .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: inherit;
+}
 .featured--one {
     display: flex;
     align-items: center;
     position: relative;
-    top: 200px;
-    
     color: #fff;
-    background-color: #ff5b50;
+    margin-bottom: 40px;
+}
+
+.featured--one .featured--left {
+    width: 330px;
+}
+
+.featured--one h2 {
+    flex: 1;
+    margin: 0 80px;
+}
+
+.featured--one h2 span {
+    color: #FF5B50;
+}
+
+.featured--one img {
+    width: 200px;
 }
 
 .info--group {
     display: flex;
     align-items: flex-end;
+    margin-top: 30px;
+}
+
+.featured--gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 60px 16px;
 }
 
