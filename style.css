@@ -116,7 +116,8 @@ header ul li a {
 /* === others */
 
 #others {
-    height: 100vh;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #5A5757;
 }
 .others {
     width: 100%;
@@ -126,7 +127,6 @@ header ul li a {
 }
 
 .mini-sidebar {
-    background-color: #000;
     width: 100%;
     height: inherit;
     display: flex;
@@ -134,29 +134,47 @@ header ul li a {
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-right: 1px solid #5A5757;
 }
 
-.mini-sidebar h3 {
+.mini-sidebar h2 {
     color: #fff;
 }
 
 .mini-sidebar p {
     color: #5A5757;
+    font-size: 20px;
+}
+
+.info-values {
+    margin: 25px 0;
 }
 
 .content-area {
     width: 100%;
-    height: 100px;
     color: #fff;
 }
 
 .content {
     display: flex;
-    gap: 1.5rem;
-    padding: 1.5rem;
+    gap: 4rem;
+    padding: 4rem;
 }
+
 .content div {
     flex: 1;
+}
+
+.content p {
+    margin-bottom: 40px;
+}
+
+.content p a {
+    color: #FF5B50;
+}
+
+.content a {
+    color: #fff;
 }
 
 .image-area {
