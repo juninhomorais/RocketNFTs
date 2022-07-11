@@ -128,12 +128,25 @@ header ul li a {
     background-color: #000;
     width: 100%;
     height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mini-sidebar h3 {
+    color: #fff;
+}
+
+.mini-sidebar p {
+    color: #5A5757;
 }
 
 .content-area {
-    background-color: aqua;
     width: 100%;
     height: 100px;
+    color: #fff;
 }
 
 .content {
