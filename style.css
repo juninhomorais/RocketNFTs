@@ -50,7 +50,7 @@ header ul li a {
     padding: 15px;
 }
 
-/* === FEATURED*/
+/* === FEATURED */
 
 .featured--area {
     padding-top: 160px;
@@ -108,3 +108,43 @@ header ul li a {
     grid-gap: 60px 16px;
 }
 
+/* === others */
+
+#others {
+    height: 100vh;
+}
+.others {
+    width: 100%;
+    height: inherit;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+.mini-sidebar {
+    background-color: #000;
+    width: 100%;
+    height: inherit;
+}
+
+.content-area {
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+}
+
+.content {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+.content div {
+    flex: 1;
+}
+
+.image-area::after {
+    content: "";
+    background-image: url(./assets/images/banner.png);
+    width: 100%;
+    height: 300px;
+    position: absolute;
+}
