@@ -189,3 +189,23 @@ header ul li a {
     height: inherit;
     position: absolute;
 }
+
+/* === others */
+
+#articles {
+    height: 100vh;
+}
+
+#articles h2 {
+    color: #fff;
+}
+
+#articles h2 span {
+    color: #FF5B50;
+}
+
+.articles-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
