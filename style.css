@@ -221,7 +221,6 @@ header ul li a {
     color: #FF5B50;
 }
 
-
 .artists--area {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -269,4 +268,18 @@ header ul li a {
     text-align: center;
     color: #fff;
     text-decoration: none;
+}
+
+/* footer */
+
+footer {
+    background-color: #252525;
+    margin-top: 150px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
 }
