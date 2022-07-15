@@ -209,3 +209,64 @@ header ul li a {
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
 }
+
+/* artists area */
+
+#artists h2 {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+#artists h2 span {
+    color: #FF5B50;
+}
+
+
+.artists--area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
+
+.artist {
+    display: flex;
+    align-items: center;
+    background-color: #252525;
+    padding: 25px 30px;
+}
+
+.artist:hover {
+    background-color: #FF5B50;
+}
+
+.artist:hover p:last-child {
+    color: #fff!important;
+}
+
+.artist img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.artist .artist-info {
+    flex: 1;
+}
+
+.artist .artist-info p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.artist .artist-info p:last-child {
+    color: #FF5B50;
+    margin-bottom: 0;
+}
+
+.artists--area a {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
