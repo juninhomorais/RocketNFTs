@@ -71,6 +71,7 @@ header ul li a {
     justify-content: end;
     height: inherit;
 }
+
 .featured--one {
     display: flex;
     align-items: center;
@@ -119,6 +120,7 @@ header ul li a {
     margin-bottom: 60px;
     border-bottom: 1px solid #5A5757;
 }
+
 .others {
     width: 100%;
     height: inherit;
@@ -239,7 +241,7 @@ header ul li a {
 }
 
 .artist:hover p:last-child {
-    color: #fff!important;
+    color: #fff !important;
 }
 
 .artist img {
@@ -282,4 +284,51 @@ footer {
     justify-content: space-between;
     align-items: center;
     height: 160px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer .left {
+    width: 400px;
+}
+
+.footer .left h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.footer .left h3 span {
+    color: #FF5B50;
+}
+
+.footer .right {
+    height: inherit;
+    flex: 1;
+    padding: 60px;
+}
+
+.footer .right .links-area {
+    display: flex;
+}
+
+.footer .right .links-area .column {
+    flex: 1;
+}
+
+.footer .right .links-area .column h4 {
+    color: #fff;
+}
+
+.footer .right .links-area .column ul {
+    list-style: none;
+}
+
+.footer .right .links-area .column ul a {
+    color: #5A5757;
+    text-decoration: none;
 }
