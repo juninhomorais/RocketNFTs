@@ -283,6 +283,13 @@ footer {
     border-bottom: 1px solid #5A5757;
 }
 
+.footer-top .back-top {
+    background-color: #FF5B50;
+    border: 0;
+    padding: 20px;
+    cursor: pointer;
+}
+
 .footer-area {
     display: flex;
     justify-content: space-between;
