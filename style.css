@@ -21,6 +21,8 @@ body {
     text-decoration: none;
     font-weight: 700;
     color: #000;
+    border: 0;
+    cursor: pointer;
 }
 
 h2 {
@@ -305,7 +307,7 @@ footer {
 }
 
 .footer-main .footer-area .left--side {
-    width: 400px;
+    width: 500px;
 }
 
 .footer-main .footer-area .left--side h3 {
@@ -313,11 +315,30 @@ footer {
     font-size: 30px;
     font-weight: 500;
     width: 320px;
-
+    margin-bottom: 20px;
 }
 
-.footer-area .left--side h3 span {
+.footer-main .footer-area .left--side h3 span {
     color: #FF5B50;
+}
+
+.footer-main  .footer-area .left--side #newslleter {
+    display: flex;
+}
+
+.footer-main .footer-area .left--side input {
+    background-color: #0D0D0D;
+    color: #5A5757;
+    border: 0;
+    width: 280px;
+    padding: 20px;
+    font-size: 16px;
+    outline: 0;
+}
+
+.footer-main .footer-area .left--side .button {
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .footer-area .right--side {
