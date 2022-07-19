@@ -380,6 +380,15 @@ footer {
     color: #5A5757;
 }
 
+.footer-bottom .social-icons {
+    display: flex;
+    gap: 35px;
+}
+
+.footer-bottom .social-icons img {
+    width: 30px;
+}
+
 /* Barra de Rolagem */
 
 
