@@ -1,8 +1,10 @@
-### RocketCoffee
+### RocketNFTs
 
 Challenge created by Rocketseat :purple_heart::rocket:
 
 The purpose of this challenge was to create a complete landing page for NFTs, using only <strong>HTML</strong> and <strong>CSS</strong>.
+
+<img src="./assets/images/rocketnfts-photo-desktop.png" alt="">
 
 ### We use it in the project
 
