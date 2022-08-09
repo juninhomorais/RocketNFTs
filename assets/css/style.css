@@ -57,11 +57,20 @@ header ul li a {
     padding: 15px;
 }
 
+header .button {
+    display: flex;
+    align-items: center;
+}
+
+header .button img {
+    margin-right: 10px;
+}
+
 /* === FEATURED */
 
 .featured--area {
     padding-top: 160px;
-    background-image: url("./assets/images/background.png");
+    background-image: url("../images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
