@@ -197,7 +197,7 @@ header .button img {
 
 .image-area::after {
     content: "";
-    background-image: url(./assets/images/banner.png);
+    background-image: url(../images/banner.png);
     width: inherit;
     height: inherit;
     position: absolute;
