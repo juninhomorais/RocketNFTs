@@ -29,7 +29,7 @@ h2 {
     font-size: 50px;
 }
 
-/* === HEADER */
+/* === header */
 
 header {
     display: flex;
@@ -66,7 +66,7 @@ header .button img {
     margin-right: 10px;
 }
 
-/* === FEATURED */
+/* === featured section */
 
 .featured--area {
     padding-top: 160px;
@@ -125,7 +125,7 @@ header .button img {
     grid-gap: 60px 16px;
 }
 
-/* === others */
+/* === info section */
 
 #others {
     margin-bottom: 60px;
@@ -203,7 +203,7 @@ header .button img {
     position: absolute;
 }
 
-/* === others */
+/* === articles section */
 
 #articles {
     height: 100vh;
@@ -223,7 +223,7 @@ header .button img {
     justify-content: space-between;
 }
 
-/* artists area */
+/* === artists section */
 
 #artists h2 {
     color: #fff;
@@ -283,7 +283,7 @@ header .button img {
     text-decoration: none;
 }
 
-/* footer */
+/* === footer */
 
 footer {
     background-color: #252525;
@@ -398,26 +398,18 @@ footer {
     width: 30px;
 }
 
-/* Barra de Rolagem */
+/* === scroll bar */
 
-
-/* Fundo que corre */
 ::-webkit-scrollbar-track {
     background-color: #232C3B;
 }
-/* Fundo que corre */
 
 ::-webkit-scrollbar {
     width: 6px;
     background: #F4F4F4;
 }
 
-/* Linha que desce */
 ::-webkit-scrollbar-thumb {
     background: #FF5B50;
     border-radius: 15px;
 }
-/* Linha que desce*/
-
-
-/* Barra de Rolagem */
