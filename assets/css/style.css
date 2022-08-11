@@ -206,21 +206,78 @@ header .button img {
 /* === articles section */
 
 #articles {
-    height: 100vh;
+    margin-bottom: 200px;
 }
 
 #articles h2 {
     color: #fff;
+    margin-bottom: 120px;
 }
 
 #articles h2 span {
     color: #FF5B50;
 }
 
-.articles-area {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.articles--area {
+    display: flex;
     justify-content: space-between;
+}
+
+.articles--area .left--area {
+    flex: 1;
+    border-right: 1px solid #5A5757;
+}
+
+.articles--area .right--area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.articles--area article {
+    max-width: 370px;
+    margin-bottom: 50px;
+}
+
+.articles--area .left--area article:last-child,
+.articles--area .right--area article:last-child  {
+    margin-bottom: 0;
+}
+
+.articles--area article .header--area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles--area article .header--area div:last-child {
+    max-width: 100px;
+}
+
+.articles--area article .header--area div:last-child img {
+    width: 20px;
+}
+
+.articles--area article .header--area a,
+.articles--area article .header--area span {
+    display: block;
+    text-align: right;
+}
+
+.articles--area article h3 {
+    color: #fff;
+}
+
+.articles--area article p {
+    color: #5A5757;
+}
+
+.articles--area article span {
+    color: #FF5B50;
+}
+
+.articles--area article img {
+    width: 100%;
 }
 
 /* === artists section */
