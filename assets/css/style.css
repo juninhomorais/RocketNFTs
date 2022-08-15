@@ -26,7 +26,14 @@ body {
 }
 
 h2 {
+    color: #fff;
     font-size: 50px;
+}
+
+h3 {
+    font-weight: 500;
+    color: #fff;
+    font-size: 30px;
 }
 
 /* === header */
@@ -210,7 +217,6 @@ header .button img {
 }
 
 #articles h2 {
-    color: #fff;
     margin-bottom: 120px;
 }
 
@@ -247,11 +253,22 @@ header .button img {
 
 .articles--area article .header--area {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
-.articles--area article .header--area div:last-child {
-    max-width: 100px;
+.articles--area article .header--area .info--top,
+.articles--area article .header--area .info--bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articles--area article .header--area .info--top {
+    margin-bottom: 25px;
+}
+
+.articles--area article .header--area .info--bottom {
+    margin-bottom: 15px;
 }
 
 .articles--area article .header--area div:last-child img {
@@ -262,10 +279,6 @@ header .button img {
 .articles--area article .header--area span {
     display: block;
     text-align: right;
-}
-
-.articles--area article h3 {
-    color: #fff;
 }
 
 .articles--area article p {
@@ -377,7 +390,6 @@ footer {
 }
 
 .footer-main .footer-area .left--side h3 {
-    color: #fff;
     font-size: 30px;
     font-weight: 500;
     width: 320px;
