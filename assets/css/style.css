@@ -25,6 +25,16 @@ body {
     cursor: pointer;
 }
 
+p.big-text {
+    font-size: 20px;
+    font-weight: 600;
+    color: #5A5757;
+}
+
+span {
+    color: #FF5B50;
+}
+
 h2 {
     color: #fff;
     font-size: 50px;
@@ -107,10 +117,6 @@ header .button img {
     margin: 0 70px;
 }
 
-.featured--one h2 span {
-    color: #FF5B50;
-}
-
 .featured--one img {
     width: 200px;
 }
@@ -124,6 +130,10 @@ header .button img {
 .info--group img {
     margin-right: 10px;
     width: 160px;
+}
+
+.info--group span {
+    color: #fff;
 }
 
 .featured--gallery {
@@ -159,15 +169,6 @@ header .button img {
     align-items: center;
     text-align: center;
     border-right: 1px solid #5A5757;
-}
-
-.mini-sidebar h2 {
-    color: #fff;
-}
-
-.mini-sidebar p {
-    color: #5A5757;
-    font-size: 20px;
 }
 
 .info-values {
@@ -220,15 +221,8 @@ header .button img {
     margin-bottom: 200px;
 }
 
-#articles h2 {
-    margin-bottom: 120px;
-}
-
-#articles h2 span {
-    color: #FF5B50;
-}
-
 .articles--area {
+    margin-top: 120px;
     display: flex;
     justify-content: space-between;
 }
@@ -269,6 +263,10 @@ header .button img {
 
 .articles--area article .header--area .info--top {
     margin-bottom: 25px;
+}
+
+.articles--area article .header--area .info--bottom span {
+    font-size: 20px;
 }
 
 .articles--area article .header--area .info--bottom {
