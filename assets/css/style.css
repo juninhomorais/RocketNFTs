@@ -132,6 +132,10 @@ header .button img {
     grid-gap: 60px 16px;
 }
 
+.featured--gallery img {
+    border: 1px solid #fff;
+}
+
 /* === info section */
 
 #others {
