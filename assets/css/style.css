@@ -38,7 +38,7 @@ body {
 }
 
 p.big-text {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     color: var(--light-black);
 }
@@ -52,16 +52,16 @@ h2, h3, h4, h5, h6, a, p {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 500;
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
 }
 
@@ -274,7 +274,7 @@ header .button img {
 }
 
 .articles--area article .header--area .info--bottom span {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .articles--area article .header--area .info--bottom {
@@ -338,7 +338,7 @@ header .button img {
 }
 
 .artist .artist-info p {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--main-color);
     margin-bottom: 10px;
 }
@@ -380,7 +380,7 @@ footer {
 }
 
 .footer-main .footer-area .left--side h3 {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 500;
     width: 320px;
     margin-bottom: 20px;
@@ -396,13 +396,13 @@ footer {
     border: 0;
     width: 280px;
     padding: 20px;
-    font-size: 16px;
+    font-size: 1rem;
     outline: 0;
 }
 
 .footer-main .footer-area .left--side .button {
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .footer-area .right--side {
